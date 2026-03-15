@@ -20,7 +20,7 @@ Our results have been published in the renowned power electronics journal IEEE T
 
 ### How does it work?
 ![Circuit Diagram](Images/circuit_diagram_BJT.png)
-As shown in the circuit diagram above, the Joule Thief alternates between two main states: the "Turn-on" phase and the "Turn-off" phase. The circuit heavily relies on the mutual inductance between the primary coil ($L_1$) and the secondary coil ($L_2$) of the transformer to form a positive feedback loop.
+As shown in the circuit diagram above, the Joule Thief alternates between two main states: the "Turn-on" phase and the "Turn-off" phase. The circuit relies on the mutual inductance between the primary coil ($L_1$) and the secondary coil ($L_2$) of the transformer to form a positive feedback loop.
 
 #### (a) Turn-on phase
 When the power source ($V_{\text{oc}}$) is connected, a small current initially flows into the control terminal (the Base of the BJT or the Gate of an NMOS) through $L_2$, slightly turning on the transistor switch. This allows current ($i_1$) to start flowing from the power source through the primary coil ($L_1$) into the collector/drain of the switch.
