@@ -56,7 +56,6 @@ It should be noted that when the Joule Thief is working, both the gate and drain
 We provide analytical calculation scripts for both BJT and NMOS based circuits, implemented in MATLAB and Python. You only need to input your circuit parameters (such as open-circuit voltage $V_{oc}$, source internal resistance $R_{in}$, primary inductance $L_1$, turns ratio $a$, along with specific transistor/diode static parameters). The code will directly output the predicted steady-state performance metrics:
 - Output voltage across the load ($V_{out}$)
 - Switching frequency ($freq$)
-- Input power ($P_{in}$) and Output power ($P_{out}$)
 - Power conversion efficiency ($eff$)
 
 We have included ready-to-run parameter examples for specific hardware models (such as BJT SMMBT3904LT1G and NMOS SiUD412ED) inside the source code to help you get started immediately.
