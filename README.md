@@ -22,6 +22,10 @@ For technical experts: Due to its very low component count, it is highly suitabl
 
 对于技术专家来说：它由于元件数量很少，它非常适合用于超低功耗的电源管理电路，尤其是对于较高阻抗的电源。正如我的论文所分析，当配合上零阈值电压的NMOS，并且面对电源内阻300ohm时，它能在仅仅50mV的电压下启动。这一强大的冷启动能力，让它在超低电压的能量采集领域有巨大潜力。我们的这一理论结果已经发表在了著名的电力电子期刊IEEE Transactions on Industrial Electronics。未来还有很多有潜力的应用，欢迎大家继续深入挖掘。我们把它的计算代码开源了，希望能方便其他工程师或者学者对它的进一步研究。
 
+In summary, this is a very simple circuit (more interesting than you thought before). Its capabilities are currently underestimated, and it has enormous potential applications in the field of energy harvesting.
+
+总而言之，这是一个非常简单的电路（比你之前想的更有趣）。它的能力目前也被低估了，并且在能量采集领域有着巨大的应用潜力。
+
 ### How does it work? / 它工作原理是什么？
 ![Circuit Diagram](Images/circuit_diagram_BJT.png)
 As shown in the circuit diagram above, the Joule Thief alternates between two main states: the "Turn-on" phase and the "Turn-off" phase. The circuit heavily relies on the mutual inductance between the primary coil ($L_1$) and the secondary coil ($L_2$) of the transformer to form a positive feedback loop.
