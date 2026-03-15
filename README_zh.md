@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-本仓库提供了我们在IEEE Transactions on Industrial Electronics (TIE)期刊论文中详细介绍的焦耳小偷（[Joule Thief](https://en.wikipedia.org/wiki/Joule_thief)）转换器的开源计算代码（包含MATLAB和Python）以及SPICE仿真文件。它旨在帮助研究人员 and 工程师基于我们的解析模型，轻松地计算性能并探索电路参数。如果你对仓库有任何疑问，都可以提issue问我。
+本仓库提供了我们在IEEE Transactions on Industrial Electronics (TIE)期刊论文中详细介绍的焦耳小偷（[Joule Thief](https://en.wikipedia.org/wiki/Joule_thief)）转换器的开源计算代码（包含MATLAB和Python）以及SPICE仿真文件。它旨在帮助研究人员和工程师基于我们的解析模型，轻松地计算性能并探索电路参数。如果你对仓库有任何疑问，都可以提issue问我。
 
 ### Joule Thief电路是什么？
 对于非技术人员来说：它能让一个较低的DC输入电压，转换成一个较高的DC输出电压。它的结构非常简单，仅需要一个半导体开关，一个变压器，一个二极管，一个滤波电容和负载。
