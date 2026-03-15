@@ -14,7 +14,7 @@ For non-technical people: Its cost is extremely low and it is easy to build, mak
 
 For technical experts: Due to its very low component count, it is highly suitable for ultra-low power power management circuits, especially for power sources with relatively high internal impedance. As shown in our paper, when paired with a zero-threshold voltage NMOS and facing a source internal resistance of 300 ohms, it can start up at a mere 50mV voltage. This powerful cold-start capability gives it huge potential in the field of ultra-low voltage energy harvesting. 
 
-In summary, this is a very simple circuit (more interesting than you thought before). Its capabilities are currently underestimated, and it has enormous potential applications in the field of energy harvesting.
+In summary, this is a very simple circuit (more interesting than you thought before), and its capabilities are currently underestimated. 
 
 Our results have been published in the renowned power electronics journal IEEE Transactions on Industrial Electronics. There are still many potential applications in the future, and we welcome everyone to continue digging deeper. We have open-sourced its calculation code, hoping to facilitate further research by other engineers or scholars.
 
