@@ -2,12 +2,12 @@
 
 [简体中文](README_zh.md)
 
-This repository provides the open-source calculation code (MATLAB and Python) and SPICE simulation files for the Joule Thief converters detailed in our IEEE Transactions on Industrial Electronics (TIE) paper. It is designed to help researchers and engineers calculate performance and explore parameters based on our analytical models. If you have any questions about the repository, feel free to submit an issue to me.
+This repository provides the open-source calculation code (MATLAB and Python) and SPICE simulation files for [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) converters detailed in our IEEE Transactions on Industrial Electronics (TIE) paper. It is designed to help researchers and engineers calculate performance and explore parameters based on our analytical models. If you have any questions about the repository, feel free to submit an issue to me.
 
 ### What is a Joule Thief circuit?
 For non-technical people: It allows a lower DC input voltage to be converted into a higher DC output voltage. Its structure is very simple, requiring only a semiconductor switch, a transformer, a diode, a filter capacitor, and a load.
 
-For technical experts: It is a self-oscillating boost converter that operates in boundary conduction mode. It belongs to a type of blocking oscillator, and its earliest origins may date back nearly 100 years to when vacuum tubes were still in use. As far as I know, the name "Joule Thief" comes from the 1999 article "One volt LED--A bright light" in the magazine Everyday Practical Electronics.
+For technical experts: It is a self-oscillating boost converter that operates in boundary conduction mode. It belongs to a type of blocking oscillator, and its earliest origins may date back nearly 100 years to when vacuum tubes were still in use. As far as I know, the 1999 article "One volt LED--A bright light" in the magazine Everyday Practical Electronics made this circuit popular among the public.
 
 ### What is it used for?
 For non-technical people: Its cost is extremely low and it is easy to build, making it very popular in the DIY community. It is also suitable as an educational circuit project for students. A common demonstration is to connect a battery that is considered dead to a joule thief, thereby lighting up a 1.5V LED.

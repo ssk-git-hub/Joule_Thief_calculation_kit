@@ -2,12 +2,12 @@
 
 [English](README.md)
 
-本仓库提供了我们在IEEE Transactions on Industrial Electronics (TIE)期刊论文中详细介绍的焦耳小偷（Joule Thief）转换器的开源计算代码（包含MATLAB和Python）以及SPICE仿真文件。它旨在帮助研究人员和工程师基于我们的解析模型，轻松地计算性能并探索电路参数。如果你对仓库有任何疑问，都可以提issue问我。
+本仓库提供了我们在IEEE Transactions on Industrial Electronics (TIE)期刊论文中详细介绍的焦耳小偷（[Joule Thief](https://en.wikipedia.org/wiki/Joule_thief)）转换器的开源计算代码（包含MATLAB和Python）以及SPICE仿真文件。它旨在帮助研究人员 and 工程师基于我们的解析模型，轻松地计算性能并探索电路参数。如果你对仓库有任何疑问，都可以提issue问我。
 
 ### Joule Thief电路是什么？
 对于非技术人员来说：它能让一个较低的DC输入电压，转换成一个较高的DC输出电压。它的结构非常简单，仅需要一个半导体开关，一个变压器，一个二极管，一个滤波电容和负载。
 
-对于技术专家来说：它是一种自振荡的boost转换器，工作在边界导通模式。它是属于blocking oscillator的一种，最早的起源可能已有接近100年历史，当时还在使用真空管。据我知，Joule Thief这个名字来自于1999年的杂志《Everyday Practical Electronics》中的这篇文章“One volt LED--A bright light”。
+对于技术专家来说：它是一种自振荡的boost转换器，工作在边界导通模式。它是属于blocking oscillator的一种，最早的起源可能已有接近100年历史，当时还在使用真空管。据我所知，1999年杂志《Everyday Practical Electronics》中的这篇文章“One volt LED--A bright light”让这一电路为大众所熟知。
 
 ### Joule Thief有什么用？
 对于非技术人员来说：它的成本非常低，并且容易制作，因此在DIY社区很受欢迎，也适合作为给学生练习的电路教学项目。一个常见的演示是，把一个已经认为用光了的电池，连接上joule thief，从而点亮需要1.5V的LED。
