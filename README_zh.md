@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-本仓库提供了我们在IEEE Transactions on Industrial Electronics (TIE)期刊论文中详细介绍的“焦耳小偷”（[Joule Thief](https://en.wikipedia.org/wiki/Joule_thief)）转换器的**开源数学建模👩‍🔬、计算代码（MATLAB和Python）💻**以及**SPICE仿真文件📈**。它旨在帮助研究人员、工程师和电子爱好者基于我们的解析模型，轻松地计算性能并探索电路参数。如果你对仓库有任何疑问，都欢迎提 issue 问我！💬
+本仓库提供了我们在IEEE Transactions on Industrial Electronics (TIE)期刊论文中详细介绍的“焦耳小偷”（[Joule Thief](https://en.wikipedia.org/wiki/Joule_thief)）转换器的**开源数学建模、计算代码（MATLAB和Python）**以及**SPICE仿真文件**。它旨在帮助研究人员、工程师和电子爱好者基于我们的解析模型，轻松地计算性能并探索电路参数。如果你对仓库有任何疑问，都欢迎提 issue 问我！
 
 ### ❓ Joule Thief 电路是什么？
 - **👶 对于非技术人员来说：** 它能让一个较低的 DC 输入电压，转换成一个较高的 DC 输出电压。它的结构非常简单，仅需要一个半导体开关，一个变压器，一个二极管，一个滤波电容和负载。
@@ -22,7 +22,7 @@
 - ⏱️ 开关**振荡频率**（$freq$）
 - 🔋 **功率转换效率**（$eff$）
 
-我们还在源代码中附带了针对特定硬件型号（例如 BJT `SMMBT3904LT1G` 和 NMOS `SiUD412ED`）的可运行参数示例代码，帮助你可以立即开始运行测试！🚀
+我们还在源代码中附带了针对特定硬件型号（例如 BJT `SMMBT3904LT1G` 和 NMOS `SiUD412ED`）的可运行参数示例代码，帮助你可以立即开始运行测试！
 
 ### 📈 关于仿真文件
 我提供了 **LTSPICE（免费使用）** 的仿真文件作为参考，你可以通过自定义或者使用制造商的 SPICE 模型来替换其中的元件。进行具体设计时，我建议首先使用理论代码进行快速参数探索，然后结合仿真来观察波形和验证性能。

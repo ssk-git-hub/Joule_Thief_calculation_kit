@@ -2,7 +2,7 @@
 
 [简体中文](README_zh.md)
 
-This repository provides the **open-source mathematical modeling👩‍🔬, calculation code (MATLAB and Python)💻**, and **SPICE simulation files📈** for [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) converters detailed in our IEEE Transactions on Industrial Electronics (TIE) paper. It is designed to help researchers, engineers, and DIY enthusiasts calculate performance and explore parameters based on our analytical models. If you have any questions about the repository, feel free to submit an issue to me! 💬
+This repository provides the **open-source mathematical modeling, calculation code (MATLAB and Python)**, and **SPICE simulation files** for [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) converters detailed in our IEEE Transactions on Industrial Electronics (TIE) paper. It is designed to help researchers, engineers, and DIY enthusiasts calculate performance and explore parameters based on our analytical models. If you have any questions about the repository, feel free to submit an issue to me!
 
 ### ❓ What is a Joule Thief circuit?
 - **👶 For non-technical people:** It allows a lower DC input voltage to be converted into a higher DC output voltage. Its structure is very simple, requiring only a semiconductor switch, a transformer, a diode, a filter capacitor, and a load.
@@ -22,7 +22,7 @@ We provide analytical calculation scripts for both BJT and NMOS based circuits, 
 - ⏱️ **Switching frequency** ($freq$)
 - 🔋 **Power conversion efficiency** ($eff$)
 
-We have included ready-to-run parameter examples for specific hardware models (such as BJT `SMMBT3904LT1G` and NMOS `SiUD412ED`) inside the source code to help you get started immediately. 🚀
+We have included ready-to-run parameter examples for specific hardware models (such as BJT `SMMBT3904LT1G` and NMOS `SiUD412ED`) inside the source code to help you get started immediately.
 
 ### 📈 Regarding Simulation Files
 I have provided **LTSPICE (free to use)** simulation files as a reference. You can replace the components in them through custom configuration or use the SPICE models from the manufacturers. For specific designs, I recommend using the theory for rapid parameter exploration first, and then combining it with simulations to observe the waveforms and verify the performance.
