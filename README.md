@@ -27,7 +27,7 @@ We provide analytical calculation scripts for both BJT and NMOS based circuits, 
 We have included ready-to-run parameter examples for specific hardware models (such as BJT SMMBT3904LT1G and NMOS SiUD412ED) inside the source code to help you get started immediately.
 
 ### Regarding Simulation Files
-I have provided LTSPICE (free software) simulation files as a reference. You can replace the components in them through custom configuration or use the SPICE models from the manufacturers. For specific designs, I recommend using the theory for rapid parameter exploration first, and then combining it with simulations to observe the waveforms and verify the performance.
+I have provided LTSPICE (free to use) simulation files as a reference. You can replace the components in them through custom configuration or use the SPICE models from the manufacturers. For specific designs, I recommend using the theory for rapid parameter exploration first, and then combining it with simulations to observe the waveforms and verify the performance.
 
 ![LTSpice simulation](Images/LTSpice_simulation.png)
 
