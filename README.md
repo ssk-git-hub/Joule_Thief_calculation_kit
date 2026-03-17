@@ -5,14 +5,14 @@
 This repository provides the **open-source mathematical modeling, calculation code (MATLAB and Python)**, and **SPICE simulation files** for [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) converters detailed in our IEEE Transactions on Industrial Electronics (TIE) paper. It is designed to help researchers, engineers, and DIY enthusiasts calculate performance and explore parameters based on our analytical models. If you have any questions about the repository, feel free to submit an issue to me!
 
 ### ❓ What is a Joule Thief circuit?
-- **👶 For non-technical people:** It allows a lower DC input voltage to be converted into a higher DC output voltage. Its structure is very simple, requiring only a semiconductor switch, a transformer, a diode, a filter capacitor, and a load.
+- **💡 For non-technical people:** It allows a lower DC input voltage to be converted into a higher DC output voltage. Its structure is very simple, requiring only a semiconductor switch, a transformer, a diode, a filter capacitor, and a load.
 - **🔬 For technical experts:** It is a self-oscillating boost converter that operates in boundary conduction mode. It belongs to a type of blocking oscillator, and its earliest origins may date back nearly 100 years to when vacuum tubes were still in use. As far as I know, the 1999 article *"One volt LED--A bright light"* in the magazine Everyday Practical Electronics made this circuit popular among the public.
 
 ### 🌟 What is it used for?
 - **🛠️ For DIY enthusiasts:** Its cost is extremely low and it is easy to build, making it very popular in the DIY community. It is also suitable as an educational circuit project for students. A common demonstration is to connect a battery that is considered dead to a joule thief, thereby lighting up a 1.5V LED.
 - **⚡ For power experts:** Due to its very low component count, it is highly suitable for ultra-low power power management circuits, especially for power sources with relatively high internal impedance. As shown in our paper, when paired with a zero-threshold voltage NMOS and facing a source internal resistance of $300\Omega$, it can start up at a mere **$50\text{mV}$** voltage. This powerful cold-start capability gives it huge potential in the field of ultra-low voltage energy harvesting. 
 
-> 💡 **In summary:** This is a very simple circuit (more interesting than you thought before), and its capabilities are currently underestimated. 
+> 📌 **In summary:** This is a very simple circuit (more interesting than you thought before), and its capabilities are currently underestimated. 
 
 Our results have been published in the renowned power electronics journal IEEE Transactions on Industrial Electronics. There are still many potential applications in the future, and we welcome everyone to continue digging deeper. We have open-sourced its analytical modeling code, hoping to facilitate further research by other engineers or scholars.
 
