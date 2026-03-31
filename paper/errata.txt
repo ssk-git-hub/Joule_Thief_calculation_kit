@@ -1,4 +1,2 @@
-(1) In the schematic diagram and the simulation circuit used to generate the waveforms, the dot orientation of the coupled inductor is reversed. Therefore, based on the connection in the schematic diagram, the waveforms of V_L1 and V_L2 obtained in Figs. 2 and 4 will appear with opposite polarities.
-
-(2) The y-axis unit in Figs. 14 and 19 should be V, not mV.
+The y-axis unit in Figs. 14 and 19 should be V, not mV.
 
