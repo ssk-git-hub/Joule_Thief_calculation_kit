@@ -1,2 +1,2 @@
-The y-axis unit in Figs. 14 and 19 should be V, not mV.
+The unit in Figs. 14 and 19 should be V, not mV.
 
