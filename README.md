@@ -1,8 +1,8 @@
-# 🔋 Open Source Calculation Code for Joule Thief Converters
+# 🔋 Calculator and Simulation Files for Joule Thief Converters
 
 [简体中文](README_zh.md)
 
-This repository provides the **open-source mathematical modeling, calculation code (MATLAB and Python)**, and **SPICE simulation files** for [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) converters detailed in our IEEE Transactions on Industrial Electronics (TIE) paper. It is designed to help researchers, engineers, and DIY enthusiasts calculate performance and explore parameters based on our analytical models. If you have any questions about the repository, feel free to submit an issue to me!
+This repository provides the **mathematical modeling, calculation code (MATLAB and Python)**, and **LTSPICE simulation files** for [Joule Thief](https://en.wikipedia.org/wiki/Joule_thief) converters detailed in our IEEE Transactions on Industrial Electronics (TIE) paper. It is designed to help researchers, engineers, and DIY enthusiasts calculate performance and explore parameters based on our analytical models. If you have any questions about the repository, feel free to submit an issue to me!
 
 ### ❓ What is a Joule Thief circuit?
 - **💡 For non-technical people:** It allows a lower DC input voltage to be converted into a higher DC output voltage. Its structure is very simple, requiring only a semiconductor switch, a transformer, a diode, a filter capacitor, and a load.
